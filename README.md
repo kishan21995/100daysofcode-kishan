@@ -4,4 +4,4 @@
 ## My public announcement
 1. [Twitter Commitment](https://twitter.com/chetanhere/status/1013393655296610304)
 
-2. [LinkedIn Commitment](https://www.linkedin.com/feed/update/urn:li:activity:6419136040908492800)
+2. [LinkedIn Commitment](https://www.linkedin.com/feed/update/urn:li:activity:6420594299938934784)
