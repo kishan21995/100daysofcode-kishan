@@ -12,4 +12,5 @@ def pushZeroes(arr):
                 print(arr)
 
                 ar=[10,12,0,0,7,19,7,0,45,5]
+                
                 pushZeroes(arr)

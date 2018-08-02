@@ -1,17 +1,15 @@
+#To find lcm and hcf of two numbers 
 
-a=[]
-for i in range(1,5):
-    a.append(int(input()))
+num1 = int(input("Enter number1:"))
+num2 = int(input("Enter number2:"))
+num3 = int(input("Enter number3:"))
+num4 = int(input("Enter number4:"))
+a=[num1,num2,num3,num4]
+lcm = a[0]
+for i in a[1:]:
+gc=gcd(lcm,i)
+lcm=int(lcm*i/gc)
+print(gcd(a[0],gcd(a[1],gcd(a[2],a[3]))))
+print(lcm)
 
-    def hcf(a,b):
-        for i in range(1,max(a,b)+1):
-            if(a%i==0 and b%i==0):
-                gcd=i
-                return gcd
-                def lcm(a,b):
-                    gcd=hcf(a,b)
-                    lcms =(a*b)/gcd
-                    return int(lcms)
-                    hcfs =lcms (hcfs,a[i])
-                    print('HCF:'+str(hcfs))
-                       print('LCM:'+str(lcms))
+
